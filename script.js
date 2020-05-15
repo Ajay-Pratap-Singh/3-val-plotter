@@ -18,19 +18,19 @@ var chart = new Chart(ctx, {
         datasets: [
             {
                 label: 'v1',
-                backgroundColor: 'darkblue',
+                backgroundColor: 'rgba(0,0,0,0)',
                 borderColor: 'darkblue',
                 data: []
             },
             {
                 label: 'v2',
-                backgroundColor: 'darkslategray',
+                backgroundColor: 'rgba(0,0,0,0)',
                 borderColor: 'darkslategray',
                 data: []
             },
             {
                 label: 'v3',
-                backgroundColor: 'brown',
+                backgroundColor: 'rgba(0,0,0,0)',
                 borderColor: 'brown',
                 data: []
             }
