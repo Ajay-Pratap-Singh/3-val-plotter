@@ -20,19 +20,22 @@ var chart = new Chart(ctx, {
                 label: 'v1',
                 backgroundColor: 'rgba(0,0,0,0)',
                 borderColor: 'darkblue',
-                data: []
+                data: [],
+                lineTension:0.1
             },
             {
                 label: 'v2',
                 backgroundColor: 'rgba(0,0,0,0)',
                 borderColor: 'darkslategray',
-                data: []
+                data: [],
+                lineTension:0.1
             },
             {
                 label: 'v3',
                 backgroundColor: 'rgba(0,0,0,0)',
                 borderColor: 'brown',
-                data: []
+                data: [],
+                lineTension:0.1
             }
         ]
     },
