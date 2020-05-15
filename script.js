@@ -11,27 +11,27 @@ inputv3.value=""
 var ctx = document.getElementById('myChart').getContext('2d');
 var chart = new Chart(ctx, {
     // The type of chart we want to create
-    type: 'bar',
+    type: 'line',
     // The data for our dataset
     data: {
         labels: [],
         datasets: [
             {
                 label: 'v1',
-                backgroundColor: 'darkslategray',
-                borderColor: 'darkslategray',
-                data: []
-            },
-            {
-                label: 'v2',
                 backgroundColor: 'darkblue',
                 borderColor: 'darkblue',
                 data: []
             },
             {
+                label: 'v2',
+                backgroundColor: 'darkslategray',
+                borderColor: 'darkslategray',
+                data: []
+            },
+            {
                 label: 'v3',
-                backgroundColor: 'crimson',
-                borderColor: 'crimson',
+                backgroundColor: 'brown',
+                borderColor: 'brown',
                 data: []
             }
         ]
